@@ -65,6 +65,7 @@ const boxShadow = theme('mode', {
     light: LIGHT_MODE.boxShadow,
     dark: DARK_MODE.boxShadow,
 });
+
 export const myTheme = {
     logoUrl,
     themeColor,

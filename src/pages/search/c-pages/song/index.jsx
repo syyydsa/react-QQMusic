@@ -16,7 +16,6 @@ export default memo(function SearchSong() {
             songs: state.getIn(['search', 'songList']),
             loginStatus: state.getIn(['user', 'loginStatus']),
             loginUserLoverList: state.getIn(['user', 'loginUserLoverList'])
-
         }),
         shallowEqual
     );
